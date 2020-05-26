@@ -23,6 +23,7 @@ services:
     network_mode: "bridge"
     environment:
       - ENABLE_IPV6=true
+      - DEFAULT_HOST=whoami.joaogabriel.org
     ports:
       - 80:80
       - 443:443
